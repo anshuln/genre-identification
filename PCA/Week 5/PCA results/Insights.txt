@@ -1,0 +1,2 @@
+As th number of features is increasing, the clusters are growing scattered, probably because the explained variance is decreasing.
+From 15-25 features, there is a negligible difference in seperated-ness of the genres, but at 5 features itself, the generes are pretty seperated IMO.

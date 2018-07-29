@@ -1,0 +1,4 @@
+Of all the non-timbre vector features, only hotttnesss and loudness are significant.
+Also, max_loudness_timbre is surprisingly not very significant
+Of the features I experimented with, danceability was not compiled for most songs, the time of onset of max_loudness_segment (for which I used the max_segment_indice on the segment_time array) was not very significant, neither were beginning and end of fade_in or fade_out.
+A note on how I decided significance - I ran the database through the feature selection tool on Azure ML studio, using all six correlation scores available, then I did a weighted voting for the most correated features. The correlation scores are in the Features.txt and features_with_values.txt, while the script to generate best_features is also in this folder. 
